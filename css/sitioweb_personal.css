@@ -1,0 +1,89 @@
+/* Estilo general */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    line-height: 1.5;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.fondo-titulo{
+background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGpucHU3Y2hhNjcyMWU3aXhmOTNqcHd1b2tsb2lnbGJlNXc0NHVvMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JoIcxJVEBTe1NBj9hR/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    padding: 50px;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: darkblue
+}
+.nose0{
+color: darkred;
+}
+.nose1{
+    padding: 50px;
+    
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: wheat
+}
+
+/* Selectores por ID */
+#encabezado {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#sobre-mi {
+    padding: 5px;
+    font-size: 35px;
+    background-image: url(https://www.xtrafondos.com/wallpapers/rick-y-morty-3245.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Se recorta si es necesario */
+    background-position: center;
+    background-color: lightblue;
+    color: black;
+}
+#sobre-mi img {
+    opacity: 0.75;
+}
+.nose2{
+    font-family: Franklin Gothic Medium, sans-serif;
+    color: black;
+}
+/* Selectores por clase */
+.experiencia {
+    padding: 20px;
+    background-color: darkgray;
+}
+
+.proyectos {
+    padding: 20px;
+    background-color: darkgoldenrod
+}
+.nose3 {
+    font-size: 20px;
+    font-family: Franklin Gothic Medium, sans-serif;
+    text-align: center;
+    
+}
+.pie {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+}
